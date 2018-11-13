@@ -39,8 +39,15 @@ PW  : odroid
 
 ## Create a new sudo User 
 On the command window type the following commands and ener data as par instructed:
-`adduser teamlary`</br>
+- Create user:
+`adduser teamlary` </br> 
+- Provide sudo priviledges to the user: 
 `usermod -aG sudo teamlary`</br>
+- Once the user is created, switch to the newly created user
+`su - teamlary`
+- Check for attained priveledges:
+` sudo whoami`</br>
+The output should be `root`
 
  
  
