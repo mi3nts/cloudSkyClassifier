@@ -16,7 +16,6 @@
  - Flash the image
 
 ## Install screen on the Linux Desktop and set up a UART 
-
  - On the linux command line type `sudo apt install screen`
  - connect the UART to the Desktop and type in `ls -l /dev/ttyUSB* `: 
  The presented line will state which address the USB is connected 
@@ -33,3 +32,12 @@ PW  : odroid
 
 ## Update the current Ubuntu OS 
  - on the command window of the XU4 type `sudo do-release-upgrade`. This may take a few hours
+ - These commands will update the current ubuntu version: 
+ `sudo apt-get update`
+ `sudo apt-get upgrade`
+ `sudo apt-get dist-upgrade`
+ 
+ 
+ 
+ 
+ 
