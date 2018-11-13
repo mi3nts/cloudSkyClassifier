@@ -36,7 +36,12 @@ PW  : odroid
  ```sudo apt-get update``` </br>
  ```sudo apt-get upgrade``` </br>
 ```sudo apt-get dist-upgrade``` </br>
- 
+
+## Create a new sudo User 
+On the command window type the following commands and ener data as par instructed:
+`adduser teamlary`</br>
+`usermod -aG sudo teamlary`</br>
+
  
  
  
