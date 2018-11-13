@@ -33,3 +33,4 @@ PW  : odroid
 
 ## Update the current Ubuntu OS 
  - on the command window of the XU4 type `sudo do-release-upgrade`
+ This may take a few hours
