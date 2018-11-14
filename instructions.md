@@ -16,7 +16,6 @@
  - Flash the image
 
 ## Install screen on the Linux Desktop and set up a UART 
-
  - On the linux command line type `sudo apt install screen`
  - connect the UART to the Desktop and type in `ls -l /dev/ttyUSB* `: 
  The presented line will state which address the USB is connected 
@@ -33,3 +32,24 @@ PW  : odroid
 
 ## Update the current Ubuntu OS 
  - on the command window of the XU4 type `sudo do-release-upgrade`. This may take a few hours
+ - These commands will update the current ubuntu version: </br>
+ ```sudo apt-get update``` </br>
+ ```sudo apt-get upgrade``` </br>
+```sudo apt-get dist-upgrade``` </br>
+
+## Create a new sudo User 
+On the command window type the following commands and ener data as par instructed:
+- Create user:
+`adduser teamlary` </br> 
+- Provide sudo priviledges to the user: 
+`usermod -aG sudo teamlary`</br>
+- Once the user is created, switch to the newly created user
+`su - teamlary`
+- Check for attained priveledges:
+` sudo whoami`</br>
+The output should be `root`
+
+ 
+ 
+ 
+ 
