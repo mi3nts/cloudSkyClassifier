@@ -49,9 +49,7 @@ On the command window type the following commands and ener data as par instructe
 ` sudo whoami`</br>
 The output should be `root`
 
-## 26th-29th of June 2018
-The folloing tasks are geared towards Importing the Classifier to an XU4 
-### Task 9 : Installing dependancies on the XU4 
+## Installing dependancies on the XU4 
 
 ## Intalling pip 
 ```
@@ -139,18 +137,22 @@ sudo ldconfig
 
 
 
-## Initiat Git Repo
+## Installing Sklearn
 
 `` sudo apt-get install python3-matplotlib``
 `` pip3 install -U scikit-learn```
  
- 
- 
- sudo apt-get install build-essential python3-dev python3-setuptools \
+ ```sudo apt-get install build-essential python3-dev python3-setuptools \
                      python3-numpy python3-scipy \
-                     libatlas-dev libatlas3-base
+                     libatlas-dev libatlas3-base 
+  ```
+### SSH into the XU4 
 
- 
+### Installing nmap
+run the following commands on the Linux Command Line
+` sudo apt-get update `
+`sudo apt-get install nmap ` 
+
  
  
  
