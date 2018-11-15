@@ -135,8 +135,6 @@ sudo ldconfig
 - check for connected devices ``df -h`` 
 - DO the Back `Up sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols
 
-
-
 ## Installing Sklearn
 
 `` sudo apt-get install python3-matplotlib``
@@ -150,10 +148,12 @@ sudo ldconfig
 
 ### Installing nmap
 run the following commands on the Linux Command Line
-` sudo apt-get update `
-`sudo apt-get install nmap ` 
+`sudo apt-get update`
+`sudo apt-get install nmap` 
 
- 
+### get files from Xu4 
+`scp -r teamlary@10.202.42.205:/home/teamlary/gitHubRepos/data/webCamSnaps ~/`
+
  
  
  
