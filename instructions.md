@@ -154,10 +154,9 @@ run the following commands on the Linux Command Line
 ### get files from Xu4 
 `scp -r teamlary@10.202.42.205:/home/teamlary/gitHubRepos/data/webCamSnaps ~/`
 
- 
- 
- 
- 
+### Install PyDrive 
+`sudo pip3 install PyDrive`
+
  
  
  
