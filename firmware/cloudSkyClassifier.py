@@ -6,7 +6,8 @@ import numpy as np
 import pickle
 from skimage import io, color
 import cv2
-
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 # from datetime import date
 # from shutil import copyfile
@@ -34,6 +35,13 @@ import cv2
 # from math import sqrt
 
 def main():
+    scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('cloudSkyClassification-80ac14316bf4.json',scope)
+    gc = gspread.authorize(credentials)
+    wks = gc.open('cloudClassificationMints').sheet1
+
+
+
     dataFolder    = '../../../data/'
     subFolder     = dataFolder + "webCamSnaps/"
     # swimSegPath   = dataFolder+"swimseg/images/"
@@ -53,7 +61,11 @@ def main():
 
     print("Writing Resulting Images ...")
     binaryImage = writeBinaryImage(predictionBinary,imageShape,imagePath,onboardCapture)
-    getResults(currentImage,binaryImage,predictionBinary,prediction,imagePath)
+    resultsOut = getResults(currentImage,binaryImage,predictionBinary,prediction,imagePath)
+    print(str(resultsOut))
+    wks.append_row(resultsOut)
+
+
     ## Now the Focus will be to get back the Predicted Binary Image
     timeTaken("Preiction time is ",start)
 
@@ -96,11 +108,11 @@ def getResults(originalImage,binaryImage,predictionBinary,prediction,imagePath):
         averageGreenCloud = -1 # Denoting 0% of Sky
         averageRedCloud   = -1 # Denoting 0% of Sky
 
-
+    cloudPercentage =str(float(cloudPercentage))
     print("------------------------------")
     # print("Predictionn Accuracy :  "+str(percentageAccuracy)+"%")
     print("------------------------------")
-    print("Cloud Pecentage      :  "+str(float(cloudPercentage))+"%")
+    print("Cloud Pecentage      :  "+cloudPercentage+"%")
     print('-----------------------------------')
     print('Sky Red              : ',averageRedSky)
     print('Sky Green            : ',averageGreenSky)
@@ -111,6 +123,17 @@ def getResults(originalImage,binaryImage,predictionBinary,prediction,imagePath):
     print('Cloud Blue           : ',averageBlueCloud)
     print('-----------------------------------')
     print('Done.')
+    dateTime  =  getDateTimeFromPath(imagePath)
+    return [dateTime, cloudPercentage,averageRedSky,averageGreenSky,averageBlueSky,averageRedCloud,averageGreenCloud,averageBlueCloud]
+
+
+
+
+def getDateTimeFromPath(imagePath):
+
+    nameIn ,extensionIn=getFileNameAndExtension(imagePath)
+    return nameIn.split('MintsSky-')[-1]
+
 
 def getPredictionMatrix(loadedModel,oneDImage):
     prediction       = loadedModel.predict(oneDImage)

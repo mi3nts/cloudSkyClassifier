@@ -20,13 +20,13 @@ def main():
     dataFolder    = '../../../../data/'
     subFolder  = dataFolder + "webCamSnaps/"
     numOfPics = 10
-   
+
     start = time.time()
     getSnaps(numOfPics,subFolder)
     timeTaken('Pics taken in ',start)
 
 def getSnaps(numOfPics,folderIn):
-    
+
     directoryCheck(folderIn)
     camera = cv2.VideoCapture(0)
     i = 0
