@@ -27,7 +27,7 @@ Portable particulate sensors are becoming quite popular in consumer markets. The
 7. Date Outage: 
 - The device sends data packets to google drive doc which is updated live. A sample of such a document is given below.
 
-| dateTime           | cloudPecentage    | skyRed      | skyBlue     | skyGreen    | cloudRed    | cloudGreen  | cloudBlue   |
+| dateTime                    | cloudPecentage    | skyRed      | skyBlue     | skyGreen    | cloudRed    | cloudGreen  | cloudBlue   |
 |-------------------------|-------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | 2018-11-16-1-3-52  | 99.9156 | 62.5550 | 19.7144 | 9.3899 | 206.7500 | 164.4323 | 163.6752 |
 | 2018-11-16-1-36-11 | 99.9082 | 61.7375 | 19.7446 | 8.7836 | 205.9728 | 163.5578 | 163.3363 |
