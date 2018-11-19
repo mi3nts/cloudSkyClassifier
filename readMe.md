@@ -36,5 +36,5 @@ Portable particulate sensors are becoming quite popular in consumer markets. The
 
 
 8. Weight 
-- weighs 0.4 Kg.
+- weighs 0.8 Kg.
 
