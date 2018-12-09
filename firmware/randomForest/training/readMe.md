@@ -7,7 +7,7 @@ The data set used for the study can be downloaded on request from this [link](ht
 ## 2. Running the python module
 
 - Clone the Cloud Sky Classification repo (if you haven't already done so already)</br>
-```git clone https://github.com/mi3nts/cloudSkyClassifier.git```
+```git clone https://github.com/mi3nts/cloudSkyClassifier.git```</br>
 **Make sure you have installed git**
 - Navigate to RandomForest/training Directory  
 ```
@@ -52,7 +52,7 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
 -Cloud Sky Classifier -Training- Random Forest Model-
 -----------------------------------------------------
-Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   <---------------------------------
+Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   <------------------------
 ```
 - In this example the data set was saved within a folder named '/media/teamlary/Team_Lary_1/gitGubRepos/data/'. 
 - The data set folder should have the following directory Structure:
@@ -74,7 +74,7 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 - In completion of the previous command the randon forest module will be written on the Data Set Path. On this example it'll write to the following directory: 
 ```/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ ```
 - The files named Train_Features.npy, Train_Shapes.npy, Train_Targets.npy, Train_Targets_Shapes.npy will also be written within the same folder.
-- The file directory should now look like as follows.
+- The file directory should now look like as follows:
 ```
 ├── swimseg
 │   ├── GTmaps
@@ -93,10 +93,6 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 │   ├── Train_Targets.npy
 │   └── Train_Targets_Shapes.npy
 ````
-
-
-
-
 
 ## 4.Reading the testing performance of the classifier:
 - The module will return a confusion matrix and a prediction accuracy statsistic once completed.
