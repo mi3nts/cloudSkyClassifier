@@ -6,7 +6,8 @@ On a Unix terminal type in the following scripts
 ```sudo apt-get install python3-pip```
 
 ##  Installing numpy and scipy 
-``` sudo apt-get install python3-numpy 
+```
+sudo apt-get install python3-numpy 
 sudo apt-get install python3-scipy
 ```
 
