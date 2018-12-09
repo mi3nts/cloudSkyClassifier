@@ -97,7 +97,7 @@ sudo apt-get install build-essential python3-dev python3-setuptools python3-nump
 ```
 
 
-## 2.0 Running the python module
+   ## 3.0 Running the python module
 
 - Clone the Cloud Sky Classification repo
 ```git clone https://github.com/mi3nts/cloudSkyClassifier.git```</br>
@@ -149,7 +149,7 @@ Enter the path to model file: /media/teamlary/Team_Lary_1/gitGubRepos/data/cloud
 ```
 On this example, image path and the model path is given as: `samples/0001.png` and  `/media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav` repectively. 
 
-## 3.0 Reading the results 
+## 4.0 Reading the results 
 
 - The results should read as follows:
 ```
