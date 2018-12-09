@@ -96,7 +96,29 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 │   └── Train_Targets_Shapes.npy
 ````
 
-## 4.Moving forward to the testing phase:
+
+
+
+
+## 4.Reading the testing performance of the classifier:
+- The module will return a confusion matrix and a prediction accuracy statsistic once completed.
+```
+-----------------------------------------------------
+Gaining Confusion Matrices...........................
+-----------------------------------------------------
+Confusion Matrix for Random Forest Classifier - Training
+[[ 962547   80731]
+ [  65240 1411482]]
+-----------------------------------------------------
+Training Accuracy for Random Forest Classifier: 94.21%
+-----------------------------------------------------
+Training Done........................................
+-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+
+```
+
+## 5.Moving forward to the testing phase:
 - The instructions on testing can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/testing)
 
 
