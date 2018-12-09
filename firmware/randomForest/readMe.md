@@ -92,13 +92,7 @@ sudo ldconfig
 
 ```
 sudo apt-get install python3-matplotlib
-```
-
-```
 pip3 install -U scikit-learn
-```
-
-```
 sudo apt-get install build-essential python3-dev python3-setuptools python3-numpy python3-scipy libatlas-base-dev
 ```
 
@@ -140,8 +134,6 @@ git clone https://github.com/mi3nts/cloudSkyClassifier.git
 │   │           └── randomForestTraining.py
 │   ├── instructionsXU4.md
 │   └── readMe.md
-
-
 ```
 
 
