@@ -127,7 +127,7 @@ git clone https://github.com/mi3nts/cloudSkyClassifier.git
 │   │   │   └── training
 │   │   │       └── naiveBayesTraining.py
 │   │   ├── naiveBayesModel.sav
-│   │   └── randomForest                   <-----------------------------
+│   │   └── randomForest<----------------------------------------------
 │   │       ├── cloudSkyClassifierRF.py
 │   │       ├── samples
 │   │       │   ├── 0001BinaryRF.png
