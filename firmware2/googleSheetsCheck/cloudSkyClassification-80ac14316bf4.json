@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloudskyclassification-222623",
+  "private_key_id": "80ac14316bf43e1f668271d66b6c83df07af3fd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5AOZEj/lQ+cy2\ndB60OR462cFH+Y0PqWvD7psXhmXfkP8TjZlzus+zPz2LtCJHgMo9lFh2lAxIFwK5\n/SYiZMlVFu3OO2810bkdauGI30ab6JNFw/ShJeFGiVrit0/4nD+qlHQRtbgfI/F8\n4LRMwHo1TFxrK4EQ03Calfk78jLwf5GapiKR7eOfG5TQXANtHLmFXfWXXP7jqiJq\n0uGRoKihvqF4JW42FNNkHIzjUJdTlZWwwXsgdbVdJWUIzZNri7g68aoGOA/glYN/\nNJNaw85t2+Htsm46c4eVQGhT3y2t/DX1mbdg8ieImaTpTrqt54xg5yDwfKHeRXbc\nWLZcEZFfAgMBAAECggEAM+Vcsr7wYRaxpjzMoCGlqTyMS3RlbY9I+51jRCYfTaeO\n5h1CfoRY3x9OVHIja4tlMAD9D8ZX66EI0sOAfwVmtMfJzaA+ggpisy3YNlzrobCM\nH3XomYvWtcKyDAcAF+08rs0WAiHHlHSwuScPbLhRj8Hr6uQ5QE8Pt016rKY0Q+IK\n1E3SmTd57u4lYdGGducRM5rqldQDDRj0vox8vl2o23z6G+1QbEUsJ5VdHzs3O+B3\nfuJdRx4y0yUH334e07Eaw/5/bUWhDN01ht1wADtLrSnYcGHTXanNvN4cffBtshvI\n33A/kflgvrg/MhCe9a/ESeHPypk17CUkO/GeBMm4gQKBgQDnN4MViwpKqYv375hv\np/oyGwfhi4Nb+lPIAR50xBENqCYg1LAdYCqo7LPVEM3AHEVwn6yAR0Yb8CYY/fML\n1wMxhAL/OsnBkC7f2naoFLAPjaKM7EURN31kjlVx3k6xlI6UV3o6hoZmynBQJlPb\n4H5yu3QMBe4HwJvpPGeq8CnxVQKBgQDM1VBoDhnq3H6eqTCilJkreN9ZjN9OOylS\nSZqlPmB+VDHveFqhW0ui0y65UWRzFDnRTVL47xVkmlbtgtxV3ro7jyT7uxiM4wd4\nI+u4gdqK2FlWbDq8J8Nm44zPTQ6m15HLki/9KA3qS0sA2CYUaPHDEIhWBkgwbtTF\niHdBeSpH4wKBgQDUQ6UmsOd41Z/2tNHnp3lMaH5atB6a4PvrQAO6xIi3Vefy+e7Y\neQGQ5QTPFMcel5W0KBJQDZ6yZUxEY1auRuzal0u9DjZMadZukXufIKblEGzrHLjn\nbl7CYtzUVXc/FZezXX+LnRZj5XMoUZdo4vaS075cj1EPcuZvP5IYXrTSpQKBgD3H\n7TulXS3YmZxTXab7+QMCryM8eTIIaBs4ths3KDWSQYmAHJ3kgni3B7W/lfOb2yCF\nGQyaWDKC1stGmBySVEuYjkgbE3mTFHKpKvT4vaj5PmDxvfl4aNiEs7jm/g9Wn9Pt\n4OmThjbvxMyZZUrsqFb0ipqfxHBPTX/S/F1UJWuPAoGAT43HNZQQvOLIVAFu0Ul/\njEw9uGT357mamCZkITMfnkB2YCs3AvBgycnMTGhJHhkUxBiRzcFEy9hUGdRM/YYf\nvGtZtwZrA2/9tXsgyyBLhI03s94v4gnmPXND02n1Gvt9zmZnUUC4jybwW9mmqLV2\nXteXDK23BudcfsWRZ74OLcc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "teamlary@cloudskyclassification-222623.iam.gserviceaccount.com",
+  "client_id": "106187413694634864318",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/teamlary%40cloudskyclassification-222623.iam.gserviceaccount.com"
+}
