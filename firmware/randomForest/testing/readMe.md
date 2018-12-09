@@ -1,9 +1,9 @@
 
 # Testing
-The following instructions can be followed in testing a Random forest classifier designed to classify between cloud and sky pixels. 
+The following instructions can be followed in testing a Random Forest classifier designed to classify between cloud and sky pixels. 
 
 ## 1. Completion of the training phase.
-- The instructions on completing the training phase can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/training)
+- The instructions on completing the training phase can be found [here](https://github.com/mi3nts/cloudSkyClassifier/tree/master/firmware/randomForest/training)
 
 ## 2. Running the python module
 
