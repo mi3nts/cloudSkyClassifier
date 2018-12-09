@@ -130,20 +130,22 @@ sudo make install
 ```
 sudo ldconfig
 ```
-## Getting a backup done 
-
-- check for connected devices ``df -h`` 
-- DO the Back `Up sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols
 
 ## Installing Sklearn
 
 `` sudo apt-get install python3-matplotlib``
-`` pip3 install -U scikit-learn```
- 
- ```sudo apt-get install build-essential python3-dev python3-setuptools \
-                     python3-numpy python3-scipy \
-                     libatlas-dev libatlas3-base 
-  ```
+`` pip3 install -U scikit-learn``
+``sudo apt-get install build-essential python3-dev python3-setuptools \
+  python3-numpy python3-scipy \
+  libatlas-dev libatlas3-base 
+``
+
+## Getting a backup done 
+
+- check for connected devices ``df -h`` 
+- Do the Back `Up sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols
+
+  
 ### SSH into the XU4 
 
 ### Installing nmap
