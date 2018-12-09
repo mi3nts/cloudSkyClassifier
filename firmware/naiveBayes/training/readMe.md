@@ -1,7 +1,6 @@
 
 # Training 
-
-The following instructions can be followed in training a Naive Bayes classifier in classifying cloud vs sky pixels. 
+The following instructions can be followed in training a Naive Bayes model in classifying between cloud and sky pixels.
 
 ## 1. Downloading the data set.
 The data set used for the study can be downloaded on request from this [link](http://vintage.winklerbros.net/swimseg.html)
@@ -58,7 +57,7 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ <-
 
 ```
 - In this example the data set was saved within a folder named '/media/teamlary/Team_Lary_1/gitGubRepos/data/'. 
-- The data set folder should have the following directory Structure(prior to running this script):
+- The data set folder should have the following directory Structure(**prior to running this script**):
 ```
 ├── swimseg
 │   ├── GTmaps
@@ -97,7 +96,7 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ <-
 │   └── Train_Targets_Shapes.npy
 ```
 ## 4.Reading the testing performance of the classifier:
-- The module will return a confusion matrix and a prediction accuracy statsistic once completed.
+- The module will return a confusion matrix and a prediction accuracy statistic once completed.
 ```
 -----------------------------------------------------
 Gaining Confusion Matrices...........................
@@ -116,12 +115,4 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 ```
 ## 5.Moving forward to the testing phase:
 - The instructions on testing can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/naiveBayes/testing)
-
-
-
-
-
-
-
-
 
