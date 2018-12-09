@@ -7,7 +7,8 @@ On a Unix terminal type in the following scripts
 
 ##  Installing numpy and scipy 
 ``` sudo apt-get install python3-numpy 
-sudo apt-get install python3-scipy```
+sudo apt-get install python3-scipy
+```
 
 ## Installing sklearn 
 ```sudo apt-get install scikit-learn ```
