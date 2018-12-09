@@ -4,7 +4,7 @@ The following instructions will guide you on using the Cloud Sky Classifier modu
 
 ## 1.0 Installing Dependancies
 
-### Intalling pip 
+### Installing pip 
 ```
 sudo apt-get install python3-pip
 ```
@@ -130,7 +130,7 @@ sudo apt-get install build-essential python3-dev python3-setuptools python3-nump
 ```
 - On the Unix Terminal type in the following:
 
-``` python3 cloudSkyClassifierNB.py``
+`` python3 cloudSkyClassifierNB.py``
 
 - Enter the image path when prompted. 
 ```
