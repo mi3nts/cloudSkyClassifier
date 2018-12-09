@@ -51,7 +51,7 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
 -Cloud Sky Classifier - Testing - Random Forest Model -
 -----------------------------------------------------
-Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/      <---------------------------------
+Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/      <----------------------------
 ```
 - In this example the data set was saved within a folder named '/media/teamlary/Team_Lary_1/gitGubRepos/data/'. 
 - The data set folder should have the following directory Structure(prior to running this script):
@@ -120,15 +120,4 @@ Testing Done.........................................
 -----------------------------------------------------
 Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
-
 ```
-
-
-
-
-
-
-
-
-
-
