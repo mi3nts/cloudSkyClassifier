@@ -100,9 +100,9 @@ sudo apt-get install build-essential python3-dev python3-setuptools python3-nump
 ## 2.0 Running the python module
 
 - Clone the Cloud Sky Classification repo
-git clone https://github.com/mi3nts/cloudSkyClassifier.git
-** Make sure you have installed git **
-- Navigate to RandomFirest Directory  
+```git clone https://github.com/mi3nts/cloudSkyClassifier.git```</br>
+**Make sure you have installed git**
+- Navigate to RandomForest Directory  
 ```
 ├── cloudSkyClassifier
 │   ├── firmware
@@ -135,8 +135,9 @@ git clone https://github.com/mi3nts/cloudSkyClassifier.git
 │   ├── instructionsXU4.md
 │   └── readMe.md
 ```
-
-
+- On the Unix Terminal type in the following:
+``` python3 cloudSkyClassifierRF.py```
+- 
 
 
 
