@@ -80,4 +80,4 @@ Preiction time is 8.005577325820923 Seconds
 Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
 ```
-- The module will also write a separate image with a post script of 'BinaryNB.png' where white pixels will define cloud+sun pixels while the sky pixels will be denoted by black pixels. 
+- The module will also write a separate image with a post script of *'BinaryNB.png'* where white pixels will define cloud+sun pixels while the sky pixels will be denoted by black pixels. 
