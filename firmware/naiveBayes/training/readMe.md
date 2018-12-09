@@ -75,7 +75,7 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ <-
 ## 3.Writing the Naive Bayes Module. 
 - In completion of the previous command the naive Bayes model file will be written on the Data Set Path. On this example it'll write to the following directory: 
 ```/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ ```
-- The files named Train_Features.npy, Train_Shapes.npy, Train_Targets.npy, Train_Targets_Shapes.npy will also be written within the same folder.
+- The files named *Train_Features.npy, Train_Shapes.npy, Train_Targets.npy,* and *Train_Targets_Shapes.npy* will also be written within the same folder.
 - The file directory should now look like this:
 ```
 ├── swimseg
