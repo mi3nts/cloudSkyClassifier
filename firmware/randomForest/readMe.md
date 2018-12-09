@@ -137,7 +137,46 @@ sudo apt-get install build-essential python3-dev python3-setuptools python3-nump
 ```
 - On the Unix Terminal type in the following:
 ``` python3 cloudSkyClassifierRF.py```
-- 
+- Give the image path and the path to the model file on the first and 2nd promts respectively:
+```
+-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+-----------------------------------------------------
+Enter the path to image file: samples/0001.png <----
+-----------------------------------------------------
+Enter the path to model file: /media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav <----
+-----------------------------------------------------
+```
+On this example, image path and the model path is given as: `samples/0001.png` and  `/media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav` repectively. 
+
+## 3.0 Reading the results 
+
+The results should read as follows:
+```-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+-----------------------------------------------------
+Prediction Accuracy  :  57.07793649743974%
+------------------------------
+Cloud Pecentage      :  61.20861111111111%
+------------------------------
+Sky Red              :  84.45002828520076
+Sky Green            :  106.47977429125879
+Sky Blue             :  138.2598443239837
+------------------------------
+Cloud Red            :  123.11083226307119
+Cloud Green          :  137.5176695363307
+Cloud Blue           :  158.91749526891186
+-----------------------------------------------------
+Preiction time is 126.19377398490906 Seconds
+-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+-----------------------------------------------------
+```
+
+
+
+
+
 
 
 
