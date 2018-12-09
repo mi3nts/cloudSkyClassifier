@@ -1,9 +1,9 @@
 
 # Testing
-The following instructions can be followed in testing a Naive Bayes classifier designed to classify between cloud and sky pixels. 
+The following instructions can be followed in testing a Naive Bayes classifier designed to classify between cloud and sky pixels.
 
 ## 1. Completion of the training phase.
-- The instructions on completing the training phase can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/naiveBayes/training)
+- The instructions on completing the training phase can be found [here](https://github.com/mi3nts/cloudSkyClassifier/tree/master/firmware/naiveBayes/training)
 
 ## 2. Running the python module
 
@@ -44,17 +44,17 @@ The following instructions can be followed in testing a Naive Bayes classifier d
 - On the Unix Terminal type in the following:
 ``` python3 naiveBayesTesting.py```
 
-- Enter the data Set path when prompted: 
+- Enter the path to the data Set when prompted: 
 ```
 -----------------------------------------------------
 Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
 -Cloud Sky Classifier - Testing - Random Forest Model -
 -----------------------------------------------------
-Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/      <----------------------------
+Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/      <---------------
 ```
-- In this example the data set was saved within a folder named '/media/teamlary/Team_Lary_1/gitGubRepos/data/'. 
-- The data set folder should have the following directory Structure(prior to running this script):
+- In this example the data set was saved within a folder named */media/teamlary/Team_Lary_1/gitGubRepos/data/'.*
+- The data set folder should have the following directory Structure(**prior to running this script**):
 
 ```
 ├── swimseg
@@ -78,8 +78,8 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   
 ## 3.Reading the Random Forest Module. 
 - The current code will read the testing data as well as the Naive Bayes module from the given data set path. On this example it'll write to the following directory: 
 ```/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ ```
-- The files named *Test_Features.npy, Test_Shapes.npy, Test_Targets.npy, Test_Targets_Shapes.npy* will also be written within the same folder.
-- The file directory should now look like as follows.
+- The files named *Test_Features.npy, Test_Shapes.npy, Test_Targets.npy,* and *Test_Targets_Shapes.npy* will also be written within the same folder.
+- The file directory should now look this:
 ```
 ├── swimseg
 │   ├── GTmaps
