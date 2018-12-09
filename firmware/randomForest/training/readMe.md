@@ -52,7 +52,7 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
 -Cloud Sky Classifier -Training- Random Forest Model-
 -----------------------------------------------------
-Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   <------------------------
+Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   <---------------------
 ```
 - In this example the data set was saved within a folder named '/media/teamlary/Team_Lary_1/gitGubRepos/data/'. 
 - The data set folder should have the following directory Structure:
@@ -95,7 +95,7 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 ````
 
 ## 4.Reading the testing performance of the classifier:
-- The module will return a confusion matrix and a prediction accuracy statsistic once completed.
+- The module will return a confusion matrix and a prediction accuracy statistic once completed.
 ```
 -----------------------------------------------------
 Gaining Confusion Matrices...........................
@@ -114,12 +114,3 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 
 ## 5.Moving forward to the testing phase:
 - The instructions on testing can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/testing)
-
-
-
-
-
-
-
-
-
