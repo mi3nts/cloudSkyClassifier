@@ -114,5 +114,5 @@ Multi-scale Integrated Sensing and Simulation (MINTS)
 
 ```
 ## 5.Moving forward to the testing phase:
-- The instructions on testing can be found [here](https://github.com/mi3nts/cloudSkyClassifier/tree/master/firmware/naiveBayes/testing)
+- The instructions on the testing phase can be found [here](https://github.com/mi3nts/cloudSkyClassifier/tree/master/firmware/naiveBayes/testing)
 
