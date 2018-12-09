@@ -3,7 +3,7 @@
 The following instructions can be followed in training a Random forest classifier in classifying cloud vs sky pixels. 
 
 ## 1. Downloading the data set.
-The data set used for the study can be downloaded on request from this (link)[http://vintage.winklerbros.net/swimseg.html]
+The data set used for the study can be downloaded on request from this [link](http://vintage.winklerbros.net/swimseg.html)
 
 ## 2. Running the python module
 
@@ -97,7 +97,7 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 ````
 
 ## 4.Moving forward to the testing phase:
-- The instructions on testing can be found (here)[https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/testing].
+- The instructions on testing can be found [here](https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/testing)
 
 
 
