@@ -4,8 +4,8 @@ The following instructions will guide you on using the Cloud Sky Classifier modu
 
 ## 1.0 Dowoading the Model File 
 
-- The Random Forest Model can be downloaded from this (link)[https://utdallas.box.com/s/bhldpjgyvyq62ckk1efzol9rhimy5b48]
-- Make sure to save the model file in an apprpriate folder.
+- The Random Forest Model can be downloaded from this [link](https://utdallas.box.com/s/bhldpjgyvyq62ckk1efzol9rhimy5b48)
+- Make sure to save the model file in an appropriate folder.
 
 ## 2.0 Installing Dependancies
 
