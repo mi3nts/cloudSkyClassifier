@@ -1,15 +1,13 @@
 # Training 
-
-The following instructions can be followed in training a Random forest classifier in classifying cloud vs sky pixels. 
+The following instructions can be followed in training a Random Forest model in classifying between cloud and sky pixels.
 
 ## 1. Downloading the data set.
 The data set used for the study can be downloaded on request from this [link](http://vintage.winklerbros.net/swimseg.html)
 
 ## 2. Running the python module
 
-- Clone the Cloud Sky Classification repo (if you havent already done so)
-```git clone https://github.com/mi3nts/cloudSkyClassifier.git```</br>
-
+- Clone the Cloud Sky Classification repo (if you haven't already done so already)</br>
+```git clone https://github.com/mi3nts/cloudSkyClassifier.git```
 **Make sure you have installed git**
 - Navigate to RandomForest/training Directory  
 ```
