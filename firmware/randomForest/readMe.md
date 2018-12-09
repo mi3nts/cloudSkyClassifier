@@ -8,14 +8,15 @@ The following instructions will guide you on using the Cloud Sky Classifier modu
 - Make sure to save the model file in an appropriate folder.
 
 ## 2.0 Installing Dependancies
--  The following [link](https://github.com/mi3nts/cloudSkyClassifier/blob/master/dependencies.md) provides instructions on installing  the necessary dependancies.
+-  The following [link](https://github.com/mi3nts/cloudSkyClassifier/blob/master/dependencies.md) provides instructions on installing the necessary dependancies.
 
 ## 3.0 Running the python module
 
 - Clone the Cloud Sky Classification repo
 ```git clone https://github.com/mi3nts/cloudSkyClassifier.git```</br>
-**Make sure you have installed git**
-- Navigate to RandomForest Directory  
+**Make sure to have git installed**
+
+- Navigate to *RandomForest* Directory:
 ```
 ├── cloudSkyClassifier
 │   ├── firmware
@@ -34,7 +35,7 @@ The following instructions will guide you on using the Cloud Sky Classifier modu
 │   │   │   └── training
 │   │   │       └── naiveBayesTraining.py
 │   │   ├── naiveBayesModel.sav
-│   │   └── randomForest<----------------------------------------------
+│   │   └── randomForest <----------------------------------------------
 │   │       ├── cloudSkyClassifierRF.py
 │   │       ├── samples
 │   │       │   ├── 0001BinaryRF.png
@@ -50,17 +51,20 @@ The following instructions will guide you on using the Cloud Sky Classifier modu
 ```
 - On the Unix Terminal type in the following:
 ``` python3 cloudSkyClassifierRF.py```
-- Give the image path and the path to the model file on the first and 2nd promts respectively:
+
+- Give the image path and the path to the model file on the 1st and 2nd promts respectively:
+
 ```
 -----------------------------------------------------
 Multi-scale Integrated Sensing and Simulation (MINTS)
 -----------------------------------------------------
-Enter the path to image file: samples/0001.png <----
+Enter the path to image file: samples/0003.png <----
 -----------------------------------------------------
 Enter the path to model file: /media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav <----
 -----------------------------------------------------
 ```
-On this example, image path and the model path is given as: `samples/0001.png` and  `/media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav` repectively. 
+
+On this example, image path and the model path is given as: `samples/0003.png` and  `/media/teamlary/Team_Lary_1/gitGubRepos/data/cloudSkyClassifierModels/randomForest.sav` repectively. 
 
 ## 4.0 Reading the results 
 
