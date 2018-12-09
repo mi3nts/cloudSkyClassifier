@@ -77,8 +77,8 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   
 ## 3.Reading the Random Forest Module. 
 - The current code will read the testing data as well as the random forest module from the entered data set path.  the previous command the random forest module will be written on the Data Set Path. On this example it'll write to the following directory: 
 ```/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/ ```
-- The files named Test_Features.npy, Test_Shapes.npy, Test_Targets.npy, Test_Targets_Shapes.npy will also be written within the same folder.
-- The file directory should now look like as follows.
+- The files named *Test_Features.npy, Test_Shapes.npy, Test_Targets.npy* and *Test_Targets_Shapes.npy* will also be written within the same folder.
+- The file directory should now look like as follows:
 ```
 ├── swimseg
 │   ├── GTmaps
@@ -91,7 +91,6 @@ Enter the Data Set Path:/media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/   
 │   │   ├── 0002.png
 │   │   ├── 0003.png
 │   │   ├── ............................
-│   ├── naiveBayesModel.sav
 │   ├── randomForestModel.sav
 │   ├── Test_Features.npy
 │   ├── Test_Shapes.npy
