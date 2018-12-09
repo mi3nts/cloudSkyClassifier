@@ -151,28 +151,30 @@ On this example, image path and the model path is given as: `samples/0001.png` a
 
 ## 3.0 Reading the results 
 
-The results should read as follows:
-```-----------------------------------------------------
-Multi-scale Integrated Sensing and Simulation (MINTS)
------------------------------------------------------
-Prediction Accuracy  :  57.07793649743974%
-------------------------------
-Cloud Pecentage      :  61.20861111111111%
-------------------------------
-Sky Red              :  84.45002828520076
-Sky Green            :  106.47977429125879
-Sky Blue             :  138.2598443239837
-------------------------------
-Cloud Red            :  123.11083226307119
-Cloud Green          :  137.5176695363307
-Cloud Blue           :  158.91749526891186
------------------------------------------------------
-Preiction time is 126.19377398490906 Seconds
------------------------------------------------------
-Multi-scale Integrated Sensing and Simulation (MINTS)
------------------------------------------------------
+- The results should read as follows:
 ```
+-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+-----------------------------------------------------
+Prediction Accuracy  :  80.76048129799186%
+------------------------------
+Cloud Pecentage      :  75.12388888888889%
+------------------------------
+Sky Red              :  69.41574915693324
+Sky Green            :  95.66514058556848
+Sky Blue             :  133.13537083770686
+------------------------------
+Cloud Red            :  155.06702262189125
+Cloud Green          :  165.0728648232919
+Cloud Blue           :  182.7029573371394
+-----------------------------------------------------
+Preiction time is 26.83636736869812 Seconds
+-----------------------------------------------------
+Multi-scale Integrated Sensing and Simulation (MINTS)
+-----------------------------------------------------
 
+```
+- The module will also write a separate image with a post script of 'BinaryRF.png' where white pixels will define cloud+sun pixels while the sky pixels will be denoted by black pixels. 
 
 
 
