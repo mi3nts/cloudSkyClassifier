@@ -96,8 +96,8 @@ Enter the Data Set Path: /media/teamlary/Team_Lary_1/gitGubRepos/data/swimseg/  
 │   └── Train_Targets_Shapes.npy
 ````
 
-
-
+## 4.Moving forward to the testing phase:
+- The instructions on testing can be found (here)[https://github.com/mi3nts/cloudSkyClassifier/firmware/randomForest/testing].
 
 
 
