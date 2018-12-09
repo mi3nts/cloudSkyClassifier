@@ -1,5 +1,5 @@
 
-# Installing Dependancies for the Cloud Sky Classifier
+# Installing Dependancies - Cloud Sky Classifier
 On a Unix terminal type in the following scripts
 
 ## Intalling pip 
