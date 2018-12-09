@@ -133,12 +133,19 @@ sudo ldconfig
 
 ## Installing Sklearn
 
-`` sudo apt-get install python3-matplotlib``
-`` pip3 install -U scikit-learn``
-``sudo apt-get install build-essential python3-dev python3-setuptools \
-  python3-numpy python3-scipy \
-  libatlas-dev libatlas3-base 
-``
+```
+sudo apt-get install python3-matplotlib
+```
+
+```
+pip3 install -U scikit-learn
+```
+
+```
+sudo apt-get install build-essential python3-dev python3-setuptools \
+python3-numpy python3-scipy \
+libatlas-dev libatlas3-base 
+```
 
 ## Getting a backup done 
 
