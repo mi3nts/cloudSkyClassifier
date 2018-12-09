@@ -12,7 +12,7 @@ Portable particulate sensors are becoming quite popular in consumer markets. The
 
 3. Portable USB Camera: 
  - The 2.1mm Wide Angle Mjpeg 5 megapixel Hd Camera
-   (HD USB Cam)[https://www.amazon.com/gp/product/B00KA83C8O/ref=oh_aui_search_detailpage?ie=UTF8&psc=1]
+   [HD USB Cam](https://www.amazon.com/gp/product/B00KA83C8O/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
 
 4. Power Usage:
 - Uses between 3W - 12W
