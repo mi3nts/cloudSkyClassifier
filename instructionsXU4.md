@@ -1,4 +1,7 @@
-# Instructions
+# Instructions for the XU4 implementation of the Cloud Sky Classifier
+
+The following instructions will guide you on using the Cloud Sky Classifier module with an [Odroid XU4](https://ameridroid.com/products/odroid-xu4).
+
 
 ## Download and Install Linux Image on the XU4 
  - xu4 [Image](https://odroid.in/ubuntu_16.04lts/ubuntu-16.04.3-4.14-mate-odroid-xu4-20171212.img.xz) :
