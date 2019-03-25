@@ -75,8 +75,9 @@ run the following commands on the Linux Command Line
 ### Install PyDrive 
 `sudo pip3 install PyDrive`
 
- 
- 
+
+### Set UTC Time Zone 
+ https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/
  
  
  
