@@ -77,7 +77,7 @@ run the following commands on the Linux Command Line
 
 
 ### Set UTC Time Zone 
- https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/
+Follow instructions given on this [link](https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/)
  
  
  
