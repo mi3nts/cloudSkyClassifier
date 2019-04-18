@@ -59,8 +59,8 @@ The output should be `root`
 ## Getting a backup done 
 
 - check for connected devices ``df -h`` 
-- Do the Back `Up sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols
-
+- Do the Back Up `sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols :Example
+`sudo dd if=/dev/sde of=/media/teamlary/Team_Lary_1/gitGubRepos/data/images/GISNode/GISNode.img`
   
 ### SSH into the XU4 
 
