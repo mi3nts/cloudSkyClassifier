@@ -52,6 +52,11 @@ On the command window type the following commands and ener data as par instructe
 ` sudo whoami`</br>
 The output should be `root`
 
+## Deleting Users 
+`sudo su -`
+`userdel odroid`
+`userdel -r odroid`
+
 ## Installing dependancies on the XU4 
 
 -  The following [link](https://github.com/mi3nts/cloudSkyClassifier/blob/master/dependencies.md) provides instructions on installing  the necessary dependancies.
